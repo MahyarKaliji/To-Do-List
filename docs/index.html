@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="bg-orange-100">
+    <div
+      id="container"
+      class="bg-stone-800 max-w-xl mx-auto my-10 rounded-2xl p-10 flex flex-col items-stretch justify-center gap-10"
+    >
+      <form
+        id="to-do-form"
+        class="bg-stone-600 flex items-center justify-between gap-3 p-3 rounded-xl"
+      >
+        <input
+          type="text"
+          id="to-do-input"
+          placeholder="Add Item ..."
+          class="p-2 flex-auto bg-stone-800 rounded-lg outline-none text-stone-100"
+        />
+        <button
+          type="submit"
+          class="flex-auto bg-stone-900 text-stone-100 p-2 rounded-lg"
+        >
+          Add Item
+        </button>
+      </form>
+
+      <div
+        id="to-do-list"
+        class="bg-stone-700 flex flex-col items-stretch justify-center rounded-lg"
+      >
+        
+      </div>
+    </div>
+
+    <script src="../dist/index.js"></script>
+  </body>
+</html>
